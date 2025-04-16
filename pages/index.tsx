@@ -1,11 +1,13 @@
+import React from 'react';
+
 export default function Home() {
-  const styles = {
+  const styles: { [key: string]: React.CSSProperties } = {
     container: {
       maxWidth: '800px',
       margin: '0 auto',
       padding: '40px 20px',
       fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif',
-      lineHeight: '1.7',
+      lineHeight: 1.7,
       backgroundColor: '#fafafa',
       color: '#333',
     },
